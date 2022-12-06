@@ -1,0 +1,502 @@
+formable_nation_category = {
+	formable_nations_germany = {
+		ai_will_do = {
+			factor = 200
+		}
+		
+		icon = generic_form_nation
+		cost = 160
+		days_re_enable = 0
+	
+		visible = {
+			NOT = { has_country_flag = formed_tier_2 }
+			count_triggers = {
+				amount = 1
+				58 = { is_controlled_by = ROOT }
+				61 = { is_controlled_by = ROOT }
+				62 = { is_controlled_by = ROOT }
+				60 = { is_controlled_by = ROOT }
+				64 = { is_controlled_by = ROOT }
+				65 = { is_controlled_by = ROOT }
+				59 = { is_controlled_by = ROOT }
+				56 = { is_controlled_by = ROOT }
+				57 = { is_controlled_by = ROOT }
+				51 = { is_controlled_by = ROOT }
+				55 = { is_controlled_by = ROOT }
+				42 = { is_controlled_by = ROOT }
+				50 = { is_controlled_by = ROOT }
+				54 = { is_controlled_by = ROOT }
+				53 = { is_controlled_by = ROOT }
+				52 = { is_controlled_by = ROOT }
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = formable_germany_a_tt
+				count_triggers = {
+					amount = 9
+					58 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					61 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					62 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					60 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					64 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					65 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					59 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					56 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					57 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					51 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					55 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					42 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					50 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					54 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					53 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					52 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+				}
+			}
+		}
+	
+		complete_effect = {
+			set_cosmetic_tag = FORM_GER
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = formed_tier_2
+				58 = { add_core_of = ROOT }
+				61 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+				64 = { add_core_of = ROOT }
+				65 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				set_capital = 64
+			}
+		}
+	}
+	
+	formable_nations_poland = {
+		ai_will_do = {
+			factor = 200
+		}
+		
+		icon = generic_form_nation
+		cost = 160
+		days_re_enable = 0
+	
+		visible = {
+			NOT = { has_country_flag = formed_tier_2 }
+			count_triggers = {
+				amount = 1
+				5 = { is_controlled_by = ROOT }
+				85 = { is_controlled_by = ROOT }
+				807 = { is_controlled_by = ROOT }
+				63 = { is_controlled_by = ROOT }
+				68 = { is_controlled_by = ROOT }
+				66 = { is_controlled_by = ROOT }
+				67 = { is_controlled_by = ROOT }
+				762 = { is_controlled_by = ROOT }
+				86 = { is_controlled_by = ROOT }
+				87 = { is_controlled_by = ROOT }
+				98 = { is_controlled_by = ROOT }
+				97 = { is_controlled_by = ROOT }
+				88 = { is_controlled_by = ROOT }
+				90 = { is_controlled_by = ROOT }
+				92 = { is_controlled_by = ROOT }
+				10 = { is_controlled_by = ROOT }
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = formable_poland_a_tt
+				count_triggers = {
+					amount = 9
+					58 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					5 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					85 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					807 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					63 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					68 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					66 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					67 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					762 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					86 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					87 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					98 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					97 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					88 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					90 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					92 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+					10 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+				}
+			}
+		}
+	
+		complete_effect = {
+			set_cosmetic_tag = FORM_POL
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = formed_tier_2
+				5 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				807 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				66 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				87 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				97 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				90 = { add_core_of = ROOT }
+				92 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				set_capital = 10
+			}
+		}
+	}
+	formable_nations_baltic = {
+		ai_will_do = {
+			factor = 200
+		}
+		
+		icon = generic_form_nation
+		cost = 160
+		days_re_enable = 0
+	
+		visible = {
+			NOT = { has_country_flag = formed_tier_2 }
+			count_triggers = {
+				amount = 1
+				58 = { is_controlled_by = ROOT }
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = formable_baltic_a_tt
+				count_triggers = {
+					amount = 9
+					58 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					}
+				}
+			}
+		}
+	
+		complete_effect = {
+			set_cosmetic_tag = FORM_BAL
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = formed_tier_2
+				58 = { add_core_of = ROOT }
+				set_capital = 64
+			}
+		}
+	}
+}
