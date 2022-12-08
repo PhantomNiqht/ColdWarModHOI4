@@ -16,6 +16,10 @@ KRK = {
 	color = rgb { 217 249 68 }
 	color_ui = rgb { 217 249 68 }
 }
+SHK = {
+	color = rgb { 145  0  72 }
+	color_ui = rgb { 145  0  72 }
+}
 ENG = {
 	color = rgb { 200 0 0 }
 	color_ui = rgb { 255 0 0 }

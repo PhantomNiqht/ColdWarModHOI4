@@ -1,0 +1,45 @@
+formable_nation_category = {
+	formable_nations_NATION = {
+		ai_will_do = {
+			factor = 200
+		}
+		
+		icon = generic_form_nation
+		cost = 160 # Political Power Cost. 10 x Number of States in the Formable
+		days_re_enable = 0
+	
+		visible = {
+			NOT = { has_country_flag = formed_tier_2 } # Check to make sure the player has not previously formed a T2. Tiers available in README
+			count_triggers = {
+				amount = 1 # LEAVE THIS AT 1
+				58 = { is_controlled_by = ROOT } # Copy this line, replace 58 with every state ID part of your formable tag
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = formable_germany_a_tt
+				count_triggers = {
+					amount = X # Replace X with # of States required to form nation. Formables of 8 states require AT LEAST 75% of states (6 in the case of 8 total). 16 total states requires 51%. Make it fair, smaller countries take less effort to unite, thus need stricter requirements
+					58 = {
+						is_controlled_by = ROOT
+						OR = {
+							is_core_of = ROOT
+							AND = {
+								compliance > 79
+								resistance < 20
+							}
+						}
+					} # Copy this block of code for each state, replace with your State IDs
+				}
+			}
+		}
+	
+		complete_effect = {
+			set_cosmetic_tag = FORM_TAG # Replace TAG with your Cosmetic TAG (they can overlap your existing country tags as the full tag is FORM_TAG rather than just TAG, so don't be afraid to use FORM_MEX even though Mexico City uses MEX)
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = formed_tier_2
+				58 = { add_core_of = ROOT } # One line per state, replace with your State IDs
+				set_capital = XX (Which state is the capital located?)
+			}
+		}
+	}
+}
