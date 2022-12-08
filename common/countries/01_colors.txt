@@ -1,6 +1,10 @@
 #reload countrycolors
 
-PLT = {
-	color = rgb { 250 255 128 }
-	color_ui = rgb { 250 255 128 }
+#PLT = {
+#	 color = rgb { 250 255 128 }
+#	 color_ui = rgb { 250 255 128 }
+#}
+IST = {
+	color = rgb { 97 75 38 }
+	color_ui = rgb { 255  250  179 }
 }
