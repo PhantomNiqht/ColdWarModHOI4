@@ -16,6 +16,10 @@ KRK = {
 	color = rgb { 217 249 68 }
 	color_ui = rgb { 217 249 68 }
 }
+KYV = {
+	color = rgb { 0 255 246 }
+	color_ui = rgb { 0 255 246 }
+}
 LWW = {
 	color = rgb { 14 94 161 }
 	color_ui = rgb { 14 94 161 }
