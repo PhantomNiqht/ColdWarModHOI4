@@ -1,0 +1,6 @@
+#reload countrycolors
+
+PLT = {
+	color = rgb { 250 255 128 }
+	color_ui = rgb { 250 255 128 }
+}
