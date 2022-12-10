@@ -12,3 +12,7 @@ ANK = {
 	color = rgb { 173 164 154 }
 	color_ui = rgb { 128 116 105 }
 }
+MER = {
+	color = rgb { 183 229 235 }
+	color_ui = rgb { 81 109 112 }
+}
