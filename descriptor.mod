@@ -6,7 +6,7 @@ tags={
 	"Alternative History"
 }
 name="ColdWarModHOI4"
-supported_version="1.12.6"
+supported_version="1.12.7"
 replace_path = "common/national_focus"
 replace_path = "common/countries"
 replace_path = "history/countries"
