@@ -1,4 +1,6 @@
 KOS	= "countries/Kosovo.txt"
 IST 	= "countries/Istanbul.txt"
 ANK	= "countries/Ankara.txt"
-MER	= "countries/Mersin.txt
+MER	= "countries/Mersin.txt"
+SSN	= "countries/Samsun.txt"
+HAK	= "countries/Hakkari.txt"

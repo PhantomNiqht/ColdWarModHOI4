@@ -16,3 +16,11 @@ MER = {
 	color = rgb { 183 229 235 }
 	color_ui = rgb { 81 109 112 }
 }
+SSN = {
+	color = rgb { 152 227 194 }
+	color_ui = rgb { 132 197 164 }
+}
+HAK = {
+	color = rgb { 242 220 167 }
+	color_ui = rgb { 212 190 137 }
+}
